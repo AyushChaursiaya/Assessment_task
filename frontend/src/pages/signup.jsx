@@ -38,7 +38,7 @@ function SignUp() {
                             name="fullName"
                             value={formData.fullName}
                             onChange={handleChange}
-                            placeholder="John Doe"
+                            placeholder="Enter your Name"
                             required
                             className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500"
                         />
@@ -51,7 +51,7 @@ function SignUp() {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            placeholder="john@example.com"
+                            placeholder="Enter your Email"
                             required
                             className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500"
                         />
@@ -64,7 +64,7 @@ function SignUp() {
                             name="mobile"
                             value={formData.mobile}
                             onChange={handleChange}
-                            placeholder="9876543210"
+                            placeholder="Enter your Mobile"
                             required
                             className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:border-blue-500"
                         />
