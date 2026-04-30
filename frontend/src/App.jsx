@@ -8,10 +8,10 @@ import AddItem from "./pages/AddItem.jsx";
 import EditItem from "./pages/EditItem.jsx";
 import NotFound from "./pages/notFound.jsx";
 
-export const serverUrl = "http://localhost:5000";
+export const serverUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
 
 const App = () => {
-  const { isAuthenticated } = useAuth(); 
+  const { isAuthenticated } = useAuth();
 
   return (
     <BrowserRouter>
