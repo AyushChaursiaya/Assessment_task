@@ -18,7 +18,6 @@ app.use(
       "http://localhost:5173",
       "https://assessment-task-bice.vercel.app",
     ],
-
     credentials: true,
   }),
 );
