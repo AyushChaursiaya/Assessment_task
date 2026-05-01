@@ -16,7 +16,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://assessment-task-bice.vercel.app",
+      // "https://assessment-task-bice.vercel.app",
     ],
     credentials: true,
   }),
